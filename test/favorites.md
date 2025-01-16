@@ -1,3 +1,3 @@
-#List of favorite things
-##Favorite food
+# List of favorite things #
+## Favorite food ##
 
