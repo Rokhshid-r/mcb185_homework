@@ -14,7 +14,7 @@ def avg_kd(seq):
         sum +=aa_hydro
     return sum/len(seq)
 
-    #I wasn't sure what window size to use but google said the KD measure works best for 5-7 window but only 7 matched your output.
+    #I wasn't sure what window size to use and google said the KD measure works best for 5-7 window but only 7 matched your output so I used that.
 def is_signal(seq):
     segment = seq[:30]
     for i in range(0, len(segment) -7):
