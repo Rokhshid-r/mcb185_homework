@@ -30,7 +30,7 @@ def is_transmembrane(seq):
             return True
     return False
 
-
+# I soft-linked ecoli proteome to my repo and used GCF_000005845.2_ASM584v2_protein.faa.gz
 filename = sys.argv[1]
 for defline, seq in mcb185.read_fasta(filename):
         if len(seq) >= 41:
